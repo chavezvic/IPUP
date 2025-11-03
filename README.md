@@ -1,7 +1,7 @@
 # IPUP – Introduction to Programming Using Python
 
-This repository contains example Python scripts used in **Module 1**, **Module 2**, and **Module 3** for the course *Introduction to Programming Using Python*.  
-Each file demonstrates a specific concept in Python syntax, output formatting, user input, data handling, and control structures.
+This repository contains example Python scripts used in **Module 1**, **Module 2**, **Module 3**, and **Module 4a** for the course *Introduction to Programming Using Python*.  
+Each file demonstrates a specific concept in Python syntax, output formatting, user input, data handling, control structures, and functions.
 
 ---
 
@@ -123,6 +123,39 @@ This module covers comparison operators, boolean evaluation, conditional stateme
 - Work with lists: update, append, insert, reverse, delete, slice.  
 - Sort lists manually or with built-in functions.  
 - Perform slicing and reversal on lists and strings.
+
+---
+
+## Module 4a – Functions and Variable Scope
+
+This module introduces **functions**, **parameters**, **return values**, and **variable scope** in Python.  
+Students learn how to define functions, use arguments (positional, keyword, and default), return single or multiple values, and understand the difference between local and global variables.
+
+### Topics Covered
+
+| File | Description |
+|------|-------------|
+| function_addition_example.py | Defines a function that adds two numbers and returns the result |
+| function_parameters_example.py | Demonstrates passing multiple parameters to a function |
+| function_keyword_arguments_example.py | Uses keyword arguments to call a function with parameters in any order |
+| function_default_parameter_example.py | Defines a function with a default parameter value |
+| function_return_early_example.py | Shows how a function can return early when a condition is met |
+| function_multiple_return_values.py | Demonstrates returning multiple values from a function and unpacking them |
+| local_variable_scope_example.py | Illustrates local variable scope — variables inside a function are not accessible outside |
+| global_variable_access_example.py | Demonstrates accessing a global variable from within a function |
+| global_variable_modification_example.py | Shows how to modify a global variable using the `global` keyword |
+| global_variable_reference_example.py | Demonstrates referencing a global variable inside a function |
+| global_variable_increment_example.py | Uses a global variable and increments it from within a function |
+| recursive_factorial_example.py | Demonstrates recursion by calculating the factorial of a number |
+
+### Learning Outcomes
+
+- Define and call functions using parameters and return values.  
+- Understand **positional**, **keyword**, and **default** arguments.  
+- Return one or multiple values from a function.  
+- Differentiate between **local** and **global** variable scopes.  
+- Modify global variables safely using the `global` keyword.  
+- Apply recursion to solve repetitive problems (e.g., factorial).  
 
 ---
 
