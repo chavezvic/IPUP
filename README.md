@@ -19,10 +19,8 @@
 5. [Applied Exercises and Mini-Projects](#applied-exercises-and-mini-projects)
 6. [Module 4a – Functions and Variable Scope](#module-4a--functions-and-variable-scope)
 7. [Module 4b – Lists, Tuples & Dictionaries](#module-4b--lists-tuples--dictionaries)
-8. [Module 5 – Error Handling and Debugging](#module-5--error-handling-and-debugging)
-9. [Module 6 – File I/O and Modules (Coming Soon)](#module-6--file-io-and-modules-coming-soon)
-10. [How to Run the Examples](#how-to-run-the-examples)
-11. [License](#license)
+8. [How to Run the Examples](#how-to-run-the-examples)
+9. [License](#license)
 
 ---
 
@@ -151,27 +149,6 @@ Learn Python’s core data structures for ordered and associative data.
 - Manage key–value pairs with dictionaries.  
 - Iterate efficiently over collections.  
 - Debug using strategic print statements.
-
----
-
-## Module 5 – Error Handling and Debugging
-
-(Coming Soon)  
-This module will cover:
-- Common Python exceptions (SyntaxError, ValueError, etc.)
-- `try`, `except`, `else`, and `finally` usage
-- Custom error handling  
-- Debugging practices with `print()` and `traceback`
-
----
-
-## Module 6 – File I/O and Modules (Coming Soon)
-
-Future module covering:
-- Reading and writing text files  
-- Using `with open()` context managers  
-- Importing and creating Python modules  
-- Understanding `__name__ == "__main__"` usage
 
 ---
 
