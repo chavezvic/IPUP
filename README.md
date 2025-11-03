@@ -1,7 +1,7 @@
 # IPUP – Introduction to Programming Using Python
 
-This repository contains example Python scripts used in **Module 1**, **Module 2**, **Module 3**, and **Module 4a** for the course *Introduction to Programming Using Python*.  
-Each file demonstrates a specific concept in Python syntax, output formatting, user input, data handling, control structures, and functions.
+This repository contains example Python scripts used in **Module 1**, **Module 2**, **Module 3**, **Module 4a**, and **Module 4b** for the course *Introduction to Programming Using Python*.  
+Each file demonstrates a specific concept in Python syntax, output formatting, user input, data handling, control structures, functions, data structures, and debugging.
 
 ---
 
@@ -77,41 +77,14 @@ This module covers comparison operators, boolean evaluation, conditional stateme
 | for_loop_continue_example.py | Skips an iteration using `continue` |
 | for_else_loop_example.py | Demonstrates a `for` loop with an `else` clause |
 | bitwise_and_operator_example.py | Demonstrates the bitwise AND (`&`) operator |
-| bitwise_and_example.py | Another bitwise AND example with different values |
-| bitwise_and_zero_result.py | Shows bitwise AND resulting in zero |
-| bitwise_and_nonzero_result.py | Shows bitwise AND resulting in a nonzero value |
-| bitwise_and_five_result.py | Example: bitwise AND of 7 and 13 equals 5 |
 | bitwise_xor_operator_example.py | Demonstrates the bitwise XOR (`^`) operator |
-| bitwise_flag_check_example.py | Uses bitwise AND to check a bit in a flag |
 | bitwise_or_set_bit_example.py | Uses bitwise OR (`|`) to set a specific bit |
-| bitwise_xor_toggle_bit_example.py | Uses bitwise XOR to toggle a specific bit |
 | bitwise_not_invert_example.py | Demonstrates bitwise NOT (`~`) inversion |
-| bitwise_not_full_inversion.py | Inverts an 8-bit binary value |
-| bitwise_left_shift_example.py | Left shift by 2 positions |
-| bitwise_left_shift_three_example.py | Left shift by 3 positions |
-| bitwise_left_shift_one_example.py | Left shift by 1 position |
-| list_element_update_example.py | Updates a list element by index |
-| list_negative_index_update.py | Updates an element using negative indexing |
-| list_length_example.py | Uses `len()` to determine list length |
-| list_element_deletion_example.py | Removes a list element using `del` |
+| bitwise_left_shift_example.py | Demonstrates bitwise left shift (`<<`) |
 | list_append_example.py | Adds an element to the end using `append()` |
 | list_insert_example.py | Inserts an element at a specific position |
-| list_square_elements_example.py | Squares each element in a list |
-| list_reverse_in_place_example.py | Reverses a list manually by swapping elements |
-| list_reverse_method_example.py | Uses `reverse()` to reverse a list |
-| floor_division_simple_example.py | Demonstrates floor division using `//` |
-| bubble_sort_optimized_example.py | Optimized bubble sort with a swap flag |
-| bubble_sort_basic_example.py | Basic bubble sort implementation |
-| sorted_function_example.py | Uses built-in `sorted()` to sort a list |
-| list_slicing_example.py | Demonstrates list slicing `[start:end]` |
-| list_slicing_start_example.py | Slicing from the start `[:end]` |
-| list_slicing_end_example.py | Slicing from an index to the end `[start:]` |
-| list_slicing_step_example.py | Slicing with a step `[::step]` |
-| list_negative_slicing_example.py | Slicing using negative indices `[-3:-1]` |
-| list_reverse_slicing_example.py | Reverse slicing using negative step |
-| list_slicing_range_step_example.py | Slicing with start, end, and step `[1:5:2]` |
-| list_copy_slicing_example.py | Copies a list using slicing `[:]` |
-| list_full_reverse_slicing_example.py | Reverses a list using `[::-1]` |
+| list_reverse_method_example.py | Uses the built-in `reverse()` method |
+| sorted_function_example.py | Uses `sorted()` to sort a list |
 | string_slicing_examples.py | Demonstrates string slicing and reversal |
 
 ### Learning Outcomes
@@ -126,10 +99,29 @@ This module covers comparison operators, boolean evaluation, conditional stateme
 
 ---
 
+## Applied Exercises and Mini-Projects
+
+This section provides **hands-on programming challenges** that combine logic, input/output, and data structures.
+
+| File | Description |
+|------|-------------|
+| cidr_range_calculator.py | Calculates network IP address ranges for `/8`, `/16`, and `/24` subnets. |
+| network_device_inventory.py | Interactive inventory system using dictionaries to store and retrieve network device details. |
+| restaurant_billing_system.py | Simulates a restaurant billing app with menu pricing, subtotal, tax, and conditional discounts. |
+
+### Learning Outcomes
+
+- Combine user input, loops, and conditionals in real-world tasks.  
+- Manage structured data using lists and dictionaries.  
+- Validate user input for robustness.  
+- Apply arithmetic and control logic in program design.
+
+---
+
 ## Module 4a – Functions and Variable Scope
 
 This module introduces **functions**, **parameters**, **return values**, and **variable scope** in Python.  
-Students learn how to define functions, use arguments (positional, keyword, and default), return single or multiple values, and understand the difference between local and global variables.
+Students learn how to define functions, use arguments (positional, keyword, and default), return single or multiple values, and understand local vs. global variables.
 
 ### Topics Covered
 
@@ -137,25 +129,53 @@ Students learn how to define functions, use arguments (positional, keyword, and 
 |------|-------------|
 | function_addition_example.py | Defines a function that adds two numbers and returns the result |
 | function_parameters_example.py | Demonstrates passing multiple parameters to a function |
-| function_keyword_arguments_example.py | Uses keyword arguments to call a function with parameters in any order |
-| function_default_parameter_example.py | Defines a function with a default parameter value |
-| function_return_early_example.py | Shows how a function can return early when a condition is met |
-| function_multiple_return_values.py | Demonstrates returning multiple values from a function and unpacking them |
-| local_variable_scope_example.py | Illustrates local variable scope — variables inside a function are not accessible outside |
-| global_variable_access_example.py | Demonstrates accessing a global variable from within a function |
-| global_variable_modification_example.py | Shows how to modify a global variable using the `global` keyword |
-| global_variable_reference_example.py | Demonstrates referencing a global variable inside a function |
-| global_variable_increment_example.py | Uses a global variable and increments it from within a function |
-| recursive_factorial_example.py | Demonstrates recursion by calculating the factorial of a number |
+| function_keyword_arguments_example.py | Uses keyword arguments to call a function in any order |
+| function_default_parameter_example.py | Demonstrates default parameter values |
+| function_return_early_example.py | Shows how a function can return early |
+| function_multiple_return_values.py | Returns multiple values and unpacks them |
+| local_variable_scope_example.py | Demonstrates local variable scope |
+| global_variable_access_example.py | Accesses a global variable inside a function |
+| global_variable_modification_example.py | Modifies a global variable using `global` |
+| recursive_factorial_example.py | Calculates a factorial using recursion |
 
 ### Learning Outcomes
 
 - Define and call functions using parameters and return values.  
-- Understand **positional**, **keyword**, and **default** arguments.  
-- Return one or multiple values from a function.  
-- Differentiate between **local** and **global** variable scopes.  
-- Modify global variables safely using the `global` keyword.  
-- Apply recursion to solve repetitive problems (e.g., factorial).  
+- Understand positional, keyword, and default arguments.  
+- Return one or multiple values.  
+- Differentiate between local and global scope.  
+- Safely modify global variables using `global`.  
+- Implement recursive functions.
+
+---
+
+## Module 4b – Lists, Tuples & Dictionaries
+
+This module introduces Python’s **data structures** for ordered and associative collections: **lists**, **tuples**, and **dictionaries**.  
+Students learn how to create, modify, access, iterate through, and manage these collections — building foundational skills for structured programming.
+
+### Topics Covered
+
+| File | Description |
+|------|-------------|
+| multiple_assignment_example.py | Demonstrates multiple variable assignment in a single line. |
+| list_append_insert_example.py | Adds and inserts elements into a list. |
+| tuple_indexing_example.py | Demonstrates accessing tuple elements using positive and negative indices. |
+| tuple_immutable_error_example.py | Attempts to modify a tuple element, raising a `TypeError`. |
+| dictionary_basic_operations.py | Demonstrates creating and updating dictionary entries. |
+| dictionary_update_delete_example.py | Adds, modifies, and deletes key–value pairs. |
+| dictionary_keys_values_items_example.py | Shows how to access `.keys()`, `.values()`, and `.items()`. |
+| dictionary_iteration_example.py | Iterates over a dictionary to display all keys and values. |
+| debugging_add_function_example.py | Demonstrates debugging using print statements to trace variable flow. |
+
+### Learning Outcomes
+
+- Perform **multiple variable assignments** using tuple unpacking.  
+- Create and manipulate **lists** using methods like `append()` and `insert()`.  
+- Understand **tuple immutability** and indexing.  
+- Use **dictionaries** for key–value data management.  
+- Iterate over dictionary keys and values efficiently.  
+- Apply print-based debugging to trace program execution.
 
 ---
 
