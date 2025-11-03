@@ -1,7 +1,7 @@
 # IPUP – Introduction to Programming Using Python
 
-This repository contains example Python scripts used in **Module 1** and **Module 2** for the course *Introduction to Programming Using Python*.  
-Each file demonstrates a specific concept in Python syntax, output formatting, user input, and data handling.
+This repository contains example Python scripts used in **Module 1**, **Module 2**, and **Module 3** for the course *Introduction to Programming Using Python*.  
+Each file demonstrates a specific concept in Python syntax, output formatting, user input, data handling, and control structures.
 
 ---
 
@@ -54,6 +54,75 @@ This module introduces **variables**, **user input**, **type conversion**, and *
 - Convert between string and numeric data types.  
 - Concatenate and multiply strings.  
 - Understand how variables and operators work together.  
+
+---
+
+## Module 3 – Comparisons, Loops & Bitwise Operators
+
+This module covers comparison operators, boolean evaluation, conditional statements, loops, and basic bitwise operations.
+
+### Topics Covered
+
+| File | Description |
+|------|-------------|
+| comparison_operators_example.py | Demonstrates equality (`==`) comparisons for user input |
+| not_equal_operator_example.py | Demonstrates the not-equal (`!=`) operator |
+| greater_than_comparison.py | Uses the greater-than (`>`) operator with constants |
+| less_than_comparison.py | Uses the less-than (`<`) operator with constants |
+| if_elif_else_example.py | Shows decision-making using `if`, `elif`, and `else` |
+| while_loop_increment_example.py | Uses a `while` loop and increments a counter |
+| while_else_loop_example.py | Demonstrates a `while` loop with an `else` clause |
+| for_loop_range_example.py | Demonstrates a `for` loop with `range(start, stop, step)` |
+| while_loop_break_example.py | Shows how to exit a `while` loop early using `break` |
+| for_loop_continue_example.py | Skips an iteration using `continue` |
+| for_else_loop_example.py | Demonstrates a `for` loop with an `else` clause |
+| bitwise_and_operator_example.py | Demonstrates the bitwise AND (`&`) operator |
+| bitwise_and_example.py | Another bitwise AND example with different values |
+| bitwise_and_zero_result.py | Shows bitwise AND resulting in zero |
+| bitwise_and_nonzero_result.py | Shows bitwise AND resulting in a nonzero value |
+| bitwise_and_five_result.py | Example: bitwise AND of 7 and 13 equals 5 |
+| bitwise_xor_operator_example.py | Demonstrates the bitwise XOR (`^`) operator |
+| bitwise_flag_check_example.py | Uses bitwise AND to check a bit in a flag |
+| bitwise_or_set_bit_example.py | Uses bitwise OR (`|`) to set a specific bit |
+| bitwise_xor_toggle_bit_example.py | Uses bitwise XOR to toggle a specific bit |
+| bitwise_not_invert_example.py | Demonstrates bitwise NOT (`~`) inversion |
+| bitwise_not_full_inversion.py | Inverts an 8-bit binary value |
+| bitwise_left_shift_example.py | Left shift by 2 positions |
+| bitwise_left_shift_three_example.py | Left shift by 3 positions |
+| bitwise_left_shift_one_example.py | Left shift by 1 position |
+| list_element_update_example.py | Updates a list element by index |
+| list_negative_index_update.py | Updates an element using negative indexing |
+| list_length_example.py | Uses `len()` to determine list length |
+| list_element_deletion_example.py | Removes a list element using `del` |
+| list_append_example.py | Adds an element to the end using `append()` |
+| list_insert_example.py | Inserts an element at a specific position |
+| list_square_elements_example.py | Squares each element in a list |
+| list_reverse_in_place_example.py | Reverses a list manually by swapping elements |
+| list_reverse_method_example.py | Uses `reverse()` to reverse a list |
+| floor_division_simple_example.py | Demonstrates floor division using `//` |
+| bubble_sort_optimized_example.py | Optimized bubble sort with a swap flag |
+| bubble_sort_basic_example.py | Basic bubble sort implementation |
+| sorted_function_example.py | Uses built-in `sorted()` to sort a list |
+| list_slicing_example.py | Demonstrates list slicing `[start:end]` |
+| list_slicing_start_example.py | Slicing from the start `[:end]` |
+| list_slicing_end_example.py | Slicing from an index to the end `[start:]` |
+| list_slicing_step_example.py | Slicing with a step `[::step]` |
+| list_negative_slicing_example.py | Slicing using negative indices `[-3:-1]` |
+| list_reverse_slicing_example.py | Reverse slicing using negative step |
+| list_slicing_range_step_example.py | Slicing with start, end, and step `[1:5:2]` |
+| list_copy_slicing_example.py | Copies a list using slicing `[:]` |
+| list_full_reverse_slicing_example.py | Reverses a list using `[::-1]` |
+| string_slicing_examples.py | Demonstrates string slicing and reversal |
+
+### Learning Outcomes
+
+- Compare values using relational and equality operators.  
+- Control program flow with `if`, `elif`, and `else`.  
+- Use loops with `break`, `continue`, and `else` blocks.  
+- Apply bitwise operations (`&`, `|`, `^`, `~`, `<<`).  
+- Work with lists: update, append, insert, reverse, delete, slice.  
+- Sort lists manually or with built-in functions.  
+- Perform slicing and reversal on lists and strings.
 
 ---
 
