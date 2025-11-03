@@ -30,6 +30,30 @@ Each file demonstrates a specific programming concept or function related to Pyt
 | string_concatenation_type_error.py | Demonstrates a type error caused by mixing strings and integers |
 
 ---
+# Module 2 – Variables, Input, and Operators
+
+This folder contains examples that introduce user input, variables, type conversion, and string operations in Python.
+
+## Topics Covered
+
+| File | Description |
+|------|-------------|
+| input_response_example.py | Prompts for input and prints a dynamic response |
+| input_integer_conversion.py | Converts user input from string to integer |
+| string_concatenation_example.py | Combines multiple strings with `+` |
+| string_multiplication_example.py | Repeats a string using the `*` operator |
+
+## Learning Outcomes
+- Capture and display user input.
+- Convert between string and numeric data types.
+- Concatenate and multiply strings.
+- Understand how variables and operators work together.
+
+
+## How to Run
+```bash
+python filename.py
+
 
 ## How to Run the Examples
 
