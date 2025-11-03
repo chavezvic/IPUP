@@ -1,11 +1,15 @@
-# Module 1 – Python Basics
+# IPUP – Introduction to Programming Using Python
 
-This folder contains example Python scripts used in **Module 1: Introduction to Programming Using Python**.  
-Each file demonstrates a specific programming concept or function related to Python syntax and output formatting.
+This repository contains example Python scripts used in **Module 1** and **Module 2** for the course *Introduction to Programming Using Python*.  
+Each file demonstrates a specific concept in Python syntax, output formatting, user input, and data handling.
 
 ---
 
-## Topics Covered
+## Module 1 – Python Basics
+
+This module covers printing, escape sequences, string formatting, and arithmetic operations.
+
+### Topics Covered
 
 | File | Description |
 |------|-------------|
@@ -30,34 +34,32 @@ Each file demonstrates a specific programming concept or function related to Pyt
 | string_concatenation_type_error.py | Demonstrates a type error caused by mixing strings and integers |
 
 ---
-# Module 2 – Variables, Input, and Operators
 
-This folder contains examples that introduce user input, variables, type conversion, and string operations in Python.
+## Module 2 – Variables, Input, and Operators
 
-## Topics Covered
+This module introduces **variables**, **user input**, **type conversion**, and **string operations**.
+
+### Topics Covered
 
 | File | Description |
 |------|-------------|
 | input_response_example.py | Prompts for input and prints a dynamic response |
 | input_integer_conversion.py | Converts user input from string to integer |
-| string_concatenation_example.py | Combines multiple strings with `+` |
+| string_concatenation_example.py | Combines multiple strings using `+` |
 | string_multiplication_example.py | Repeats a string using the `*` operator |
 
-## Learning Outcomes
-- Capture and display user input.
-- Convert between string and numeric data types.
-- Concatenate and multiply strings.
-- Understand how variables and operators work together.
+### Learning Outcomes
 
+- Capture and display user input.  
+- Convert between string and numeric data types.  
+- Concatenate and multiply strings.  
+- Understand how variables and operators work together.  
 
-## How to Run
-```bash
-python filename.py
-
+---
 
 ## How to Run the Examples
 
-Use Python 3 to execute any file from the terminal or your IDE.
+Use Python 3 to execute any file from the terminal or IDE:
 
 ```bash
 python filename.py
