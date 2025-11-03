@@ -1,0 +1,6 @@
+print("Hello, world!")
+print("( -> an open parenthesis")
+print("\" -> a quotation mark")
+print("Hello, World! -> a line of text")
+print("\" -> another quotation mark")
+print(") -> a closing parenthesis")
