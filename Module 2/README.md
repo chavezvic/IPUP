@@ -1,0 +1,13 @@
+### Concepts from Slides
+- Programs communicate through **input()** and **print()** functions.  
+- Literals represent fixed values: integers, floats, strings, booleans, None, lists, tuples, and dictionaries.  
+- Integers and floats differ by the presence of a decimal point; Python uses a period `.` not a comma.  
+- Numbers can also be written in **octal (0o)** and **hexadecimal (0x)** forms.  
+- Strings are text enclosed in quotes; escape characters (like `\n` and `\t`) control formatting.  
+- Operators perform calculations or logic:
+  - Arithmetic: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+  - Shortcut: `+=`, `-=`, `*=`, etc.  
+- Variables act as named containers for values, following naming conventions.  
+- Comments (`#`) make code readable but are ignored by Python.  
+- Python keywords (e.g., `if`, `else`, `for`, `while`, `and`) cannot be used as variable names.  
+- Follow **PEP 8** guidelines for naming and code clarity.
