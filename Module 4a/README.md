@@ -1,0 +1,14 @@
+### Concepts from Slides
+- A function is a reusable block of code designed to perform a specific task.
+- Functions are defined with the `def` keyword followed by a name and optional parameters.
+- Parameters act as local variables inside the function; values passed when calling are called **arguments**.
+- Return values allow a function to send data back to where it was called using the `return` statement.
+- Function arguments can be:
+  - **Positional** – based on order
+  - **Keyword** – specified by parameter name
+  - **Default** – predefined if no value is passed
+- Functions can return multiple values, separated by commas.
+- Local variables exist only inside the function; global variables are accessible everywhere in the file.
+- The `global` keyword allows modification of a global variable from inside a function.
+- Recursion is when a function calls itself to solve smaller instances of the same problem (e.g., factorial calculation).
+- Using functions improves modularity, reduces repetition, and makes code easier to debug and maintain.
