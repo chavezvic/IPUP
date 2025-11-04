@@ -13,14 +13,15 @@
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Module 1 – Python Basics](#module-1--python-basics)
-3. [Module 2 – Variables, Input, and Operators](#module-2--variables-input-and-operators)
-4. [Module 3 – Comparisons, Loops & Bitwise Operators](#module-3--comparisons-loops--bitwise-operators)
-5. [Applied Exercises and Mini-Projects](#applied-exercises-and-mini-projects)
-6. [Module 4a – Functions and Variable Scope](#module-4a--functions-and-variable-scope)
-7. [Module 4b – Lists, Tuples & Dictionaries](#module-4b--lists-tuples--dictionaries)
-8. [How to Run the Examples](#how-to-run-the-examples)
-9. [License](#license)
+2. [Course Context (from Instructor Slide Deck)](#course-context-from-instructor-slide-deck)
+3. [Module 1 – Python Basics](#module-1--python-basics)
+4. [Module 2 – Variables, Input, and Operators](#module-2--variables-input-and-operators)
+5. [Module 3 – Comparisons, Loops & Bitwise Operators](#module-3--comparisons-loops--bitwise-operators)
+6. [Applied Exercises and Mini-Projects](#applied-exercises-and-mini-projects)
+7. [Module 4a – Functions and Variable Scope](#module-4a--functions-and-variable-scope)
+8. [Module 4b – Lists, Tuples & Dictionaries](#module-4b--lists-tuples--dictionaries)
+9. [How to Run the Examples](#how-to-run-the-examples)
+10. [License](#license)
 
 ---
 
@@ -29,6 +30,26 @@
 This repository contains example Python scripts organized by module for the course *Introduction to Programming Using Python*.  
 Each module builds upon the previous one — introducing new syntax, logic, and programming concepts.  
 All examples are **practical**, **well-commented**, and **tested using Python 3**.
+
+---
+
+## Course Context (from Instructor Slide Deck)
+
+The *Introduction to Programming Using Python (IPUP)* course introduces students to the fundamentals of computer programming through step-by-step examples and real-world applications.  
+The content progresses from basic syntax to structured problem solving, emphasizing clarity, logic, and reusable code.
+
+### Key Learning Themes
+- **Module 1 – Logic and Syntax**  
+  Understand how computers interpret instructions, how Python executes statements line by line, and how pseudocode helps design program logic.  
+- **Module 2 – Data and Variables**  
+  Explore data types, arithmetic operations, and variable storage concepts. Learn to handle user input and perform calculations using expressions.  
+- **Module 3 – Decision Making and Control Flow**  
+  Apply Boolean logic, conditionals, and loops to guide program behavior. Introduce bitwise operations for working with binary data and hardware-level logic.  
+- **Module 4 – Structure and Modularity**  
+  Develop reusable code using functions, manage variable scope, and work with Python’s main data structures (lists, tuples, and dictionaries) to organize and process information efficiently.
+
+### Instructor Note
+Each module includes practical exercises inspired by IT and networking scenarios — for example, subnet calculators, network device inventories, and restaurant billing simulations — connecting programming principles to real system-administration tasks.
 
 ---
 
