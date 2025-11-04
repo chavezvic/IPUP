@@ -15,3 +15,7 @@
   - `TypeError` when using incorrect data types
 - Exception handling (`try` and `except`) prevents crashes and provides user-friendly error messages.
 - Debugging techniques include adding print statements and testing small parts of code at a time.
+
+### Try It Yourself
+Create a dictionary representing three network devices (hostname, IP, type).  
+Print each key-value pair using a loop.
