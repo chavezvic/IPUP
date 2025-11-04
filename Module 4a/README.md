@@ -12,3 +12,7 @@
 - The `global` keyword allows modification of a global variable from inside a function.
 - Recursion is when a function calls itself to solve smaller instances of the same problem (e.g., factorial calculation).
 - Using functions improves modularity, reduces repetition, and makes code easier to debug and maintain.
+
+### Try It Yourself
+Write a function that takes two numbers and returns both their sum and product.
+Then, print the results in a single line.
