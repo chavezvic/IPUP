@@ -1,0 +1,17 @@
+### Concepts from Slides
+- Programs make decisions using **Boolean logic** — True or False.  
+- Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`  
+- Conditional statements:
+  - `if` to test a condition  
+  - `if...else` to define alternative paths  
+  - `elif` for multiple conditions  
+- Loops repeat tasks:
+  - `while` continues while a condition is True  
+  - `for` iterates through sequences or ranges  
+- `break` exits a loop early; `continue` skips an iteration.  
+- `for...else` and `while...else` add optional final actions after loops.  
+- Logical operators:
+  - `and`, `or`, `not` for combining conditions  
+- Bitwise operators handle binary operations (`&`, `|`, `^`, `~`, `<<`, `>>`).  
+- Lists allow storing multiple values, and can be indexed, sliced, or iterated.  
+- Sorting (e.g., bubble sort) demonstrates algorithmic logic.
